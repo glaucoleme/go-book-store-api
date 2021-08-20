@@ -28,4 +28,4 @@ swagger:
 				GO111MODULE=auto swagger generate spec -o ./swagger.yaml --scan-models
 
 serve-swagger:
-				swagger serve -F=swagger ./swagger.yml
+				swagger serve -F=swagger ./swagger.yml --no-open
